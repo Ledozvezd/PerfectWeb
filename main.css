@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(images/White-Wall.jpeg);
+    background-size: 125%;
+}
+#bl-body{
+    width: 1080px;
+    margin: 1px auto;
+    height: auto;
+}
+header{
+    width: 1080px;
+    height: 80px;
+    background-color: black;
+}
+.logo{
+    width: 200px;
+    float: left;
+    height: 80px;
+}
+.logo a{
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 30px;
+    color:gold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Model{
+    color: coral;
+}
+.ing{
+    color: burlywood;
+}
+.logo p{
+    margin-left:35px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+.top-menu{
+    width: 700px;
+    height 80px;
+    float: left;
+}
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.top-menu ul li a{
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+h4{
+    text-indent:100px;
+}
+h3{
+    text-indent:100px;
+    margin-top: 3px;
+}
+table {
+    table-layout: fixed;
+    width: 1080px;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    margin: 1px auto;
+    height: auto;
+    font-size: 20px;
+    background-color: white;
+}
+
+thead th:nth-child(1) {
+    width: 15%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+th, td {
+    padding: 20px;
+    align-items: center;
+}
+.lefttext{
+            float: left;
+            margin: 7px 7px 7px 0px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.photo{
+    width: 35px;
+    height: 25px;
+}
